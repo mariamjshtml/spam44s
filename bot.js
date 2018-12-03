@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2";
+var prefix = "4";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "518512544458080279"; // ايدي السررفر
-var channel = "518512609759199234";//ايدي الروم
+var channel = "518512644995416065";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('`complex,complex,complexcomplex,complex,complexcomplex,complex,complexcomplex,complex`')
     },305);
